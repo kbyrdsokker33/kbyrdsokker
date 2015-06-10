@@ -14,8 +14,9 @@
 
 h1{
   color:white;
-  font-size: 500px;
-  text-shadow: 2px 2px #ffffff;
+  font-size: 100px;
+  text-shadow: 2px 2px #000000;
+  border-style:solid black;
 }
 
 .centered{
