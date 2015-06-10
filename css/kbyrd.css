@@ -4,14 +4,20 @@
   vertical-align: top;
 }
 
-#nav-ok{
-  margin-left:315px;
-  
-}
+
+
 .navbar-inverse{
   background-color:transparent;
 }
  
+#myMenu{
+  text-align:center;
+}
+
+#myMenu ul{
+  display:inline-block;
+  vertical-align:top;
+}
 
 h1{
   margin-top:50px;
