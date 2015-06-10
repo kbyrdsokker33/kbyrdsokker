@@ -35,7 +35,7 @@
       <li data-menuanchor="secondPage"><a href="#secondPage">About Me</a> </li>
       <li data-menuanchor="thirdPage"><a href="#thirdPage">Experience</a> </li>
       <li data-menuanchor="fourthPage"><a href="#fourthPage">Skills</a> </li>
-      <li><a href="#">Education</a> </li>
+      <li data-menuanchor="fifthPage"><a href="#fifthPage">Education</a> </li>
       <li><a href="#">Resume</a></li>
        </ul>
       
@@ -47,10 +47,22 @@
 
       
       <div id="fullpage"> 
-         <div class="section">Section 1</div>
+         <div class="section" id="first">
+           <div class="container">
+            <header class="centered">
+              <h1> <b>KENDELL BYRD</b></h1>
+                <p><i> Software Engineer and Student </i></p>
+            </header>
+              <p>LinkedIn</p>
+      
+    </div>
+
+         
+         </div>
          <div class="section">Section 2</div>
          <div class="section">Section 3</div>
          <div class="section">Section 4</div>
+         <div class="section">Section 5</div>
        </div>
 
     </body>
@@ -67,7 +79,7 @@
      $(document).ready(function() {
        $('#fullpage').fullpage({
           sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#000'],
-          anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage','lastPage'],
+          anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage','fifthPage'],
           menu: '#myMenu'
        });
     });
