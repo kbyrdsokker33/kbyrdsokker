@@ -5,7 +5,7 @@
 }
 
 #nav-ok{
-  margin-left:500px;
+  margin-left:400px;
   
 }
 .navbar-inverse{
@@ -13,7 +13,11 @@
 }
 
 h1{
-  color:blue;
-  text-size: 500px;
-  text-shadow: 2px 2px #ff0000;
+  color:white;
+  font-size: 500px;
+  text-shadow: 2px 2px #ffffff;
+}
+
+.centered{
+  text-align:center;
 }
