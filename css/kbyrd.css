@@ -25,10 +25,11 @@
 h2{
   font-size:4.0em;
   margin-top:300px;
-  color:white;
+  color:green;
   text-shadow: 2px 2px #000000;
   border-style:solid black;
   text-align:center;
+  
 }
 
 #myMenu ul{
