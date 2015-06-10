@@ -4,11 +4,15 @@
   vertical-align: top;
 }
 
-ul li{
-  color: green;
+#nav-ok{
+  margin-left:100px;
 }
 
+#nav-ok1{
+  margin-left:100px;
+}
 h1{
-  color:blue;
+  color:green;
   text-size: 500px;
+  margin-left:300px;
 }
