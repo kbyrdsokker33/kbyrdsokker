@@ -93,7 +93,11 @@ h3{
   color:black;
 }
 
-#experience{
-  height:660px;
+
+#experience,
+    height: auto !important;
 }
+
+#experience{
+  height:679px;
 }
