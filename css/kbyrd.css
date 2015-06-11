@@ -94,10 +94,8 @@ h3{
 }
 
 
-#experience,
-    height: auto !important;
+#experience{
+    height: 680px !important;
 }
 
-#experience{
-  height:679px;
-}
+
