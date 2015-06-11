@@ -117,3 +117,9 @@ h3{
   }
 
 }
+
+.social a{
+  display:inline-block;
+  margin-right:10px;
+}
+}
