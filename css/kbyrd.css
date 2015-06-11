@@ -141,3 +141,8 @@ h3{
   color: #dd4b39 !important;
 }
 
+img{
+ position:absolute;
+ z-index:-1;
+ display:none;
+}
