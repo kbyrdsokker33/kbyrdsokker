@@ -109,10 +109,11 @@ h3{
 }
 @media (max-width: 340px) {
   #experience{
-    height: 864px !important;
+    height: 855px !important;
   }
   h2{
     font-size: 3em !important;
+    margin-top: 47px !important;
   }
   #skill-header{
     margin-top: 29px !important;
