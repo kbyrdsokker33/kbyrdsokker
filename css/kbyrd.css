@@ -124,6 +124,15 @@ h3{
 }
 
 .social{
-  width:50%;
   margin: 0 auto;
+  text-align:center;
 }
+
+#github{
+  color: black !important;
+}
+
+#google-plus{
+  color: #dd4b39 !important;
+}
+
