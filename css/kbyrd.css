@@ -78,6 +78,7 @@ h3{
   color:blue;
   font-size: 20px;
   border-style:solid black;
+  position:absolute;
 }
 .section{
   overflow:hidden;
@@ -86,9 +87,11 @@ h3{
   margin-bottom:15px;
   font-size:15px;
   color:black;
+  position:absolute;
 }
 
 #hackathon1{
   font-size:15px;
   color:black;
+  position:absolute;
 }
