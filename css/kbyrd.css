@@ -15,11 +15,6 @@
   color:red;
   text-transform:uppercase;
 }
-
-
-.navbar-inverse{
-  background-color:transparent;
-}
  
 
 h2{
@@ -29,6 +24,7 @@ h2{
   text-shadow: 2px 2px #000000;
   border-style:solid black;
   text-align:center;
+  text-transform:uppercase;
   
 }
 
@@ -62,5 +58,14 @@ h1{
 }
 
 .progress{
+  margin-bottom:15px;
+}
+
+.subtitle{
+  text-transform:uppercase;
+  color:black;
+  font-size:4.0em;
+  text-align: center;
+  margin-top:15px;
   margin-bottom:15px;
 }
