@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title> ROUND6 </title>
+  <title> IMAGES </title>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
@@ -51,8 +51,10 @@
       <div id="fullpage"> 
          <div class="section" id="first">
            <div class="container">
+            <img src="imgs/Swarthmore1.jpg"/>
+            <img src="imgs/swarthmore2.jpg"/>
             <header class="centered">
-              <h1> <b>KENDELL BYRD!</b></h1>
+              <h1> <b>Kendell Byrd</b></h1>
                 <p><i> Developer and Student </i></p>
             </header>
               <div class="social">
@@ -140,6 +142,13 @@ and learned to use Python to represent the data layers on geographic maps.</p>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/vendors/jquery.slimscroll.min.js"></script>
    <script>
      $(document).ready(function() {
+       function test() {
+           $("img").each(function(index) {
+            $(this).hide();
+            $(this).delay(3000* index).fadeIn(3000).fadeOut();
+         });
+        }
+       test();
        $('#fullpage').fullpage({
           sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE','#4BBFC3', 'whitesmoke'],
           anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage','fifthPage', 'sixPage'],
