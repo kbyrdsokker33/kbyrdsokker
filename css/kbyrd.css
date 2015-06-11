@@ -18,7 +18,7 @@
  
 
 h2{
-  font-size:5.0em;
+  font-size:4.0em;
   margin-top:63px;
   margin-bottom:10px;
   color:white;
@@ -91,4 +91,29 @@ h3{
 #hackathon1{
   font-size:15px;
   color:black;
+}
+
+
+#experience,
+#experience .fp-slide,
+#experience .fp-tableCell{
+    height: 680px !important;
+}
+
+@media (max-width: 570px) {
+  #skills{
+    height: 499px !important;
+  }
+}
+@media (max-width: 340px) {
+  #experience{
+    height: 864px !important;
+  }
+  h2{
+    font-size: 3em !important;
+  }
+  #skill-header{
+    margin-top: 29px !important;
+  }
+
 }
