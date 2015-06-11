@@ -100,4 +100,16 @@ h3{
     height: 680px !important;
 }
 
+@media (max-width: 480px) {
+  #skills{
+    height: 458px !important;
+  }
+}
+@media (max-width: 340px) {
+  #experience{
+    height: 864px !important;
+  }
+  h2{
+    font-size: 3em !important;
+  }
 
