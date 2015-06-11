@@ -100,9 +100,9 @@ h3{
     height: 680px !important;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 570px) {
   #skills{
-    height: 458px !important;
+    height: 495px !important;
   }
 }
 @media (max-width: 340px) {
@@ -112,4 +112,8 @@ h3{
   h2{
     font-size: 3em !important;
   }
+  #skill-header{
+    margin-top: 29px !important;
+  }
 
+}
