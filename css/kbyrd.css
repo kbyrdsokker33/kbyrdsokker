@@ -35,7 +35,6 @@ h2{
 }
 
 h1{
-  padding-top:20%;
   color:white;
   font-size: 4.5em;
   text-shadow: 2px 2px #000000;
@@ -45,6 +44,7 @@ h1{
 .centered{
   text-align:center;
   margin-bottom:15px;
+   padding-top:10%;
 }
 .centered p{
   font-size:3.5em;
