@@ -141,10 +141,18 @@ h3{
   color: #dd4b39 !important;
 }
 
-#first{
+/*#first{
    background-size:cover;
    background-image: url(../imgs/Swarthmore1.jpg);
    padding: 30% 0 0 0;
    background-repeat:no-repeat;
+}*/
+img{
+    position:absolute;
+    top:0;
+    display:none;
+    width:100%;
+    height:100%;
 }
+
 
