@@ -142,7 +142,8 @@ h3{
 }
 
 #first{
+   background-size:cover;
    background-image: url(imgs/Swarthmore1.jpg);
    padding: 30% 0 0 0;
 }
-}
+
