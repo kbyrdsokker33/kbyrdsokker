@@ -18,7 +18,7 @@
  
 
 h2{
-  font-size:4.0em;
+  font-size:4.5em;
   margin-top:100px;
   color:white;
   text-shadow: 2px 2px #000000;
@@ -58,14 +58,14 @@ h1{
 }
 
 .progress{
-  margin-bottom:25px;
+  margin-bottom:40px;
   height:30px;
 }
 
 .subtitle{
   text-transform:uppercase;
   color:black;
-  font-size:4.0em;
+  font-size:1.5em;
   text-align: center;
   margin-top:15px;
   margin-bottom:15px;
