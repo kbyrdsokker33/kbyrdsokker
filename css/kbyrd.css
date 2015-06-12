@@ -179,7 +179,9 @@ h5{
 #byrd{
   float:right;
 }
-
+#CODE2040{
+  height: auto !important;
+}
 #CODE2040 img{
   margin-bottom:10px;
   margin-right:10px;
