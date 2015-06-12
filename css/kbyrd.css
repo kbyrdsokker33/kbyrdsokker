@@ -202,3 +202,12 @@ h5{
 #Jawbone{
   height: auto !important;
 }
+
+#Jawbone p{
+  font-size:17px;
+}
+
+#Jawbone h3{
+  margin: auto !important;
+  text-align: center;
+}
