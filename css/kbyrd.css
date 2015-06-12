@@ -176,6 +176,9 @@ h5{
   margin: auto;
 }
 #kendell{
-  font-size: 14px;
-  color:blue;
+  font-size: 13px;
+  color:black;
+}
+#byrd{
+  float:right;
 }
