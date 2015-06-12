@@ -152,10 +152,23 @@ h3{
 }
 
 h5{
-  color: blue;
+  color: black
+  font-size:20px;
   
 }
-
+#courses{
+  margin-top:5px;
+}
 #courses li{
-  font-size: 16px;
+  font-size: 12px;
+  margin-left:19px;
+}
+
+#education{
+  margin-left:88px;
+  font-size:27px;
+}
+}
+#courses p{
+  margin: auto;
 }
