@@ -99,7 +99,7 @@ h3{
 #experience,
 #experience .fp-slide,
 #experience .fp-tableCell{
-    height: auto !important;
+    height: 620px !important;
 }
 
 @media (max-width: 570px) {
