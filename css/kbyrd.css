@@ -167,7 +167,7 @@ h5{
   margin-left:19px;
 }
 
-#education, #me{
+.under-title{
   margin-left:88px;
   font-size:27px;
   text-decoration: underline;
@@ -185,4 +185,9 @@ h5{
 
 #CODE2040 img{
   margin-bottom:10px;
+}
+
+#CODE2040 p{
+  font-size:14px;
+  color:black;
 }
