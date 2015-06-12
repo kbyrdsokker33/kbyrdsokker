@@ -140,14 +140,6 @@ and learned to use Python to represent the data layers on geographic maps.</p>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/vendors/jquery.slimscroll.min.js"></script>
    <script>
      $(document).ready(function() {
-        $("#first img:gt(0)").hide();
-          
-        setInterval(function(){
-          var current=$("#first img:visible");
-          var next= current.next().length ? current.next() : $("#first img:eq(0)");
-          current.fadeOut(1000);
-          next.fadeIn(1000)
-        }, 3000);
        $('#fullpage').fullpage({
           //sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE','#4BBFC3', 'whitesmoke'],
           anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage','fifthPage', 'sixPage'],
