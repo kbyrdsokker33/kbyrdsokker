@@ -167,7 +167,7 @@ h5{
 #education{
   margin-left:88px;
   font-size:27px;
-}
+  text-decoration: underline;
 }
 #courses p{
   margin: auto;
