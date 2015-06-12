@@ -16,9 +16,9 @@
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   
   </head>
-    <body>
-    
-     <div class="navbar navbar-inverse navbar-fixed-top" id="nav-ok1">
+  
+  <body>
+  <div class="navbar navbar-inverse navbar-fixed-top" id="nav-ok1">
      <div class="container">
       <div class="navbar-header">
       <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
@@ -32,12 +32,12 @@
     <div class="collapse navbar-collapse navHeaderCollapse" id="nav-ok">
       <ul class="nav navbar-nav navbar-center" id="myMenu"> 
       
-      <li><a href="#firstPage">Home</a> </li>
-      <li><a href="#secondPage">About Me</a> </li>
-      <li><a href="#thirdPage">Jawbone</a> </li>
-      <li><a href="#fourthPage">CODE2040</a> </li>
-      <li><a href="#fifthPage">Experience</a> </li>
-      <li><a href="#sixPage">Skills</a> </li>
+      <li data-menuanchor="firstPage"><a href="#firstPage">Home</a> </li>
+      <li data-menuanchor="secondPage"><a href="#secondPage">About Me</a> </li>
+      <li data-menuanchor="thirdPage"><a href="#thirdPage">Jawbone</a> </li>
+      <li data-menuanchor="fourthPage"><a href="#fourthPage">CODE2040</a> </li>
+      <li data-menuanchor="fifthPage"><a href="#fifthPage">Experience</a> </li>
+      <li data-menuanchor="sixPage"><a href="#sixPage">Skills</a> </li>
       <li><a href="KendellByrd.pdf" target="_blank">Resume</a></li>
        </ul>
       
@@ -47,7 +47,9 @@
     </div>
   </div>
 
-         <div class="section" id="firstPage">
+      
+      <div id="fullpage"> 
+         <div class="section" id="first">
            <div class="container">
             <header class="centered">
               <h1> <b>Kendell Byrd!</b></h1>
@@ -171,7 +173,7 @@ and learned to use Python to represent the data layers on geographic maps.</p>
               </div>
            </div>
          </div>
-      
+       </div>
 
     </body>
     
@@ -185,20 +187,15 @@ and learned to use Python to represent the data layers on geographic maps.</p>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/vendors/jquery.slimscroll.min.js"></script>
    <script>
      $(document).ready(function() {
-       /**$('#fullpage').fullpage({
+       $('#fullpage').fullpage({
           //sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE','#4BBFC3', 'whitesmoke'],
-          //anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage','fifthPage', 'sixPage'],
-          //menu: '#myMenu',
+          anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage','fifthPage', 'sixPage'],
+          menu: '#myMenu',
           autoScrolling:false,
           scrollBar:true,
           verticalCentered:false,
           fitToSection:false
-       });**/
-       
-        $("a[href^=#]").on("click", function(e) {
-           e.preventDefault();
-           history.pushState({}, "", this.href);
-        });
+       });
        
     });
    </script>
