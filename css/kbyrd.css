@@ -164,11 +164,14 @@ h5{
   margin-left:19px;
 }
 
-#education{
+#education, #me{
   margin-left:88px;
   font-size:27px;
   text-decoration: underline;
 }
 #courses p{
   margin: auto;
+}
+#kendell{
+  font-size: 14px;
 }
