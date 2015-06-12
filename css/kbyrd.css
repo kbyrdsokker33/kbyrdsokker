@@ -1,6 +1,4 @@
-*{
-  font-family:"Times New Roman", Arial, Times;
-}
+
 .navbar{
   width:100%;
 }
@@ -149,7 +147,7 @@ h3{
    background-repeat:no-repeat;
 }
 
-header p{
+#first p{
   color:white;
 }
 
