@@ -36,7 +36,7 @@ h2{
 }
 
 h1{
-  color:white;
+  color:black;
   font-size: 4.5em;
   text-shadow: 2px 2px #000000;
   border-style:solid black;
@@ -95,7 +95,9 @@ h3{
   font-size:15px;
   color:black;
 }
-
+.section{
+  height: auto !important;
+}
 
 #experience,
 #experience .fp-slide,
